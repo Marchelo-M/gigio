@@ -1,0 +1,41 @@
+nav {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex:  end;
+    justify-content: space-between !important;
+    
+.logo {
+      display: flex;
+      align-self: flex-start;
+      margin-top: 20px;
+      margin-left: 4em;
+}
+
+#navbar {
+    box-shadow: none !important;
+}
+}
+.contenedor {
+
+   height: 40vh;
+   background-image: url(../../img/image-banner.png);
+   background-size: cover;
+   background-position: center;
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content: space-between;
+}
+.china {
+    width: 90px;
+    height: 90px;
+}
+.social {
+    font-size: 20px;
+    margin-right: 3em;
+}
+#art {
+    font-size: $small;
+}
